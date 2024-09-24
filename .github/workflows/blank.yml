@@ -26,7 +26,6 @@ jobs:
             /usr/local/share/chromium \
             /usr/local/share/powershell \
             /usr/share/dotnet \
-            /usr/share/swift \ 
-            /usr/local/graalvm/   
+            /usr/share/swift 
           ghcup nuke
           df -h /
