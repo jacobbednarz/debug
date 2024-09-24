@@ -27,7 +27,6 @@ jobs:
             /usr/local/share/powershell \
             /usr/share/dotnet \
             /usr/share/swift \ 
-            /opt/hostedtoolcache/ \
             /usr/local/graalvm/   
           ghcup nuke
           df -h /
